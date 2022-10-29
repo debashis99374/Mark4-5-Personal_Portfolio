@@ -1,0 +1,61 @@
+*{
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    color: beige;
+}
+h2{
+    text-align: center;
+    color: beige;
+}
+H3{
+    text-align: center;
+    color: beige;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+/*header part*/
+.headerlink{
+    padding: 1px 1px;
+    margin: 1cm .5cm;
+    text-decoration: none;
+    color: bisque;
+}
+.one{
+    background-color: #84cc16;
+    padding: 2px 2px;
+    margin: auto;
+    border-color: bold  beige;
+    border-radius: 10px;
+}
+
+/*my introduction*/
+.two{
+
+}
+
+/*technologies*/
+.three{
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    background-color: #84cc16;
+    border-radius: 10px;
+    
+}
+span{
+    font-size: larger;
+}
+/*projects*/
+.four{
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    background-color: #84cc16;
+    border-radius: 10px;
+
+}
