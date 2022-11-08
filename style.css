@@ -2,6 +2,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*Footer Part*/
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
 .foter{
     text-align: center;
     
@@ -12,10 +18,7 @@
     border-radius: 10px;
     padding: .3cm;
 }
-.footer-div{
-    display: flex;
-    justify-content: center;
-}
+
 .footer-atag{
     color: beige;
     text-decoration: none;
@@ -26,6 +29,7 @@ a:hover{
 }
 .footer-p{
     color: grey black;
+    font-size: larger;
 } 
 /*Header part*/
 header{
