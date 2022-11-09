@@ -38,6 +38,7 @@ header{
     
     border-radius: 10px;
     margin-bottom: 2cm;
+    
 } 
 h1{
     padding-top: .5cm;
@@ -64,7 +65,7 @@ h2{
     margin-bottom: 2cm;
 }
 span{
-    color: rgb(65, 64, 64);
+    color:#950434;
 }
 /*technologies section*/
 #technologies{
@@ -82,13 +83,6 @@ span{
 #projects h2{
     margin-bottom: 1cm;
 }
-.projectlink{
-    color: beige;
-    background-color: #FF6398;
-    padding: 3px;
-    text-decoration: none;
-    border-radius: 10px;
-}
 /*Blogs section*/
 #blogs{
     background-color: whitesmoke;
@@ -105,8 +99,27 @@ span{
     padding: 2cm;
     margin: auto;
 }
-/*mark1*/
-#superhero-quiz{
+.projectlink{
+    color: beige;
+    background-color: #FF6398;
+    padding: 5px;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+.live-project{
+    color:  #FF6398;
+    background-color:rgb(247, 247, 196);
+    padding: 5px;
+    text-decoration: none;
+    border-color: #FF6398;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-left: 2px;
+
+}
+.project-page-div{
     background-color:whitesmoke;
     border: solid whitesmoke;
     text-align: center;
@@ -115,18 +128,16 @@ span{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-/*"View source has been coppied from Index.html pge codes"
-/*mark2*/
-#personal-quiz{
-    background-color:whitesmoke;
-    border: solid whitesmoke;
-    text-align: center;
-    padding-top: .5cm;
-    padding-bottom: 1cm;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 
+.project-page-p{
+    text-align: center;
+    max-width:500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1cm;
+    color: #950434;
 }
+
 /*"View source has been coppied from Index.html pge codes"*/
 
 /*Page2/Projects page ends-------------------------------------------------------------------------------------------------------*/
@@ -138,7 +149,8 @@ span{
 
 }
 #blog-page-p{
-    color: rgb(52, 52, 52);
+  color: #950434;
+  padding-bottom: .3cm;
 }
 
 /*blog1*/
@@ -149,6 +161,7 @@ span{
     margin: auto;
     margin-bottom: 1cm;
     max-width: 50%;
+    padding: 1cm;
     padding-top: .5cm;
     padding-bottom: 1cm;
    border-radius: 20px;
@@ -162,13 +175,14 @@ span{
     margin: auto;
     margin-bottom: 1cm;
     max-width: 50%;
+    padding: 1cm;
     padding-top: .5cm;
     padding-bottom: 1cm;
    border-radius: 20px;
 
  
 }
-
+/*---------------------------------------------------------------"ENDDD"-------------------------------------------------------------------*/
 
     
     
